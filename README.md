@@ -13,4 +13,4 @@ The following files contain the code for GMM and MoR simulations in the paper:
 
 
 **Reference**
-Tian, Y., Weng, H., & Feng, Y. (2024, July). Towards the Theory of Unsupervised Federated Learning: Non-asymptotic Analysis of Federated EM Algorithms. In International Conference on Machine Learning (pp. 48226-48279). PMLR.
+- *Tian, Y., Weng, H., & Feng, Y. (2024, July). Towards the Theory of Unsupervised Federated Learning: Non-asymptotic Analysis of Federated EM Algorithms. In International Conference on Machine Learning (pp. 48226-48279). PMLR.*
