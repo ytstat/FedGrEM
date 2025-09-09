@@ -2,14 +2,16 @@
 
 This repository provides the code to implement the method FedGrEM and the results in Tian et al. (2024). 
 
-The following three code files contain the code implementing algorithm FedGrEM and other benchmark methods considered in the paper:
+The following three code files contain the code implementing algorithm FedGrEM and other benchmark methods considered in the paper as well as evaluating different methods:
 - alignment.R
 - FedGrEM.R
 - estimation_error.R
+Please always source these files before calling the functions there.
 
 The following files contain the code for GMM and MoR simulations in the paper:
 - GMM.sh and GMM.R: Gaussian mixture models
 - MoR.sh and MoR.R: Mixture of regression
+The .sh file is used to call the .R file on the cluster. 
 
 
 **Reference**
