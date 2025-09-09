@@ -6,7 +6,9 @@ The following three code files contain the code implementing algorithm FedGrEM a
 - alignment.R
 - FedGrEM.R
 - estimation_error.R
+  
 Please always source these files before calling the functions there.
+
 
 The following files contain the code for GMM and MoR simulations in the paper:
 - GMM.sh and GMM.R: Gaussian mixture models
