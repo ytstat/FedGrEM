@@ -236,7 +236,7 @@ fedgrem <- function(x, y = NULL, R = 5, w_0, theta_0, C_eta = 0.1, lambda = 0.5,
   K <- length(x)
 
   lambda <- 1
-  if(!is.null(y)) {
+  if(!is.null(y)) { # without y: Gaussian mixture models
     for(t in 1:T_num){
       # local update
       
@@ -318,7 +318,7 @@ fedgrem <- function(x, y = NULL, R = 5, w_0, theta_0, C_eta = 0.1, lambda = 0.5,
     }
     return(list(w = w_t, theta = theta_t, timing_total = timing_total, timing_central = timing_central))
     
-  } else{
+  } else{ # with y: Mixture of regressions
     timing_total <- double(T_num)
     timing_central <- double(T_num)
     for(t in 1:T_num){
